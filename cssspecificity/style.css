@@ -1,0 +1,65 @@
+/*style.css*/
+
+@import url('https://fonts.googleapis.com/css?family=Itim');
+
+body{
+	background-color: #D8F1EB;
+	font-family: 'Itim', cursive;
+}
+
+h1{
+	text-align: center;
+	text-shadow: 2px 2px gray;
+	color: #07144f;
+}
+
+h2{
+	color: #364bac;
+}
+
+footer{
+	text-align: center;
+}
+
+.whatiscssspec{
+	border: 2px dashed #364EB9;
+	border-radius: 7px;
+	margin: 10px 80px 10px 80px;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+}
+
+.data{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+.casvsspec{
+	border-top: 7px solid #e2eec2;
+	background-color: #f3faf1;
+	text-align: center;
+	padding: auto;
+}
+
+.howtocal{
+	border-top: 7px solid #82c07c;
+	background-color: #b0e7ab;
+	text-align: center;
+	padding: auto;
+}
+
+.example{
+	border-top: 7px solid #c0abe7;
+	background-color: #e2d8f7;
+	text-align: center;
+	padding: auto;
+}
+
+.credit{
+	border-top: 7px solid #f7b7c5;
+	background-color: #ffe4ea;
+	text-align: center;
+	padding: auto;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>CSS Specificity</title>
+
+</head>
+<body>
+	<h1>CSS Specificity</h1>
+
+	<div class="whatiscssspec">
+		<h2> What is CSS Specificity</h2>
+		<p> คือค่าระดับความสำคัญ โดย CSS จะเลือกสิ่งที่มีระดับความสำคัญมากกว่ามาแสดงก่อน โดยกรณีที่มีระดับความสำคัญเท่ากันก็จะเลือกอันที่อยู่ล่างกว่า</p>
+	</div>
+
+
+
+	<div class="data">
+		
+	<div class="casvsspec">
+		<h2>ความแตกต่างระหว่าง Specificity กับ Cascade</h2>
+		<p>คือ Specificity จะเลือกคำสั่งที่มีค่าระดับความสำคัญมากกว่าส่วนแบบ Cascade จะเลือกคำสั่งที่อยู่ล่างกว่า</p>
+	</div>
+
+	<div class="howtocal">
+		<h2> วิธีคำนวนหา CSS Specificity</h2>
+		<h4>วิธีคำนวน</h4>
+		<p>ถ้าใส่ Style ให้ +1000</p>
+		<p>ถ้าใส่ Id ให้ +100</p>
+		<p>ถ้าใส่ Class ให้ +10</p>
+		<p>ถ้าใส่ Element ให้ +1</p>
+	</div>
+
+	<div class="example">
+		<h2>Example</h2>
+		<h4>ตัวอย่างการคำนวน</h4>
+		<p>.box a {} คือเป็น Class .box และ มี Element a ด้วยทำให้มีค่าเท่ากับ 10+1 = 11</p>
+		<p>.page h1 #title {} คือเป็น Class .page, Element h1 และ Style#title ทำให้มีค่าเท่ากับ 10+1+100 = 111</p>
+		<p>div a {} คือเป็น Element div และ a ทำให้มีค่าเท่ากับ 1+1 = 2 </p>
+		<p>div h1 a span {} คือเป็น Element div , h1 , a และ span ทำให้มีค่าเท่ากับ 1+1+1+1 = 4</p>
+	</div>
+
+	<div class="credit">
+		<h2>แหล่งข้อมูลเพิ่มเติม</h2>
+		<a href="https://css-tricks.com/specifics-on-css-specificity/" title="CSS-TRICKS"> CSS-TRICKS </a><br><br>
+		<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity" title="Mozilla"> Mozilla </a><br><br>
+		<a href="https://www.designil.com/css-specificity-and-hack.html" title="Designil"> Designil </a><br><br>
+		<a href="https://medium.com/@thanuphon18/css-specificity-เรื่องง่ายๆ-ที่หลายคนไม่เคยรู้-f23a0bf5ae87" title="Medium"> Medium </a><br><br>
+	</div>
+	</div>
+
+	<footer>	
+		<h3>Create by Vasupun Komenkul</h3>
+	</footer>
+</body>
+</html>
